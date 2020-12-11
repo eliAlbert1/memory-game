@@ -17,15 +17,6 @@ $("body").keydown(function(){
   }
 });
 
-// ---for mobile--- starting the game with tap on screen, no keys.
-// $("body").click(function(){
-//   if (started===false){
-//     nextSequence();
-//     // the next line toggle the boolean "started" to false/true.
-//     started =!(started) ;
-//   }
-// });
-
 function nextSequence(){
   var randomNumber = Math.round(Math.random()*3);
 
